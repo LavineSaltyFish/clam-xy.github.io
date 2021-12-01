@@ -2,17 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://clam-xy.github.io/posts/network/</loc>
-    <lastmod>2021-11-28T22:45:16+01:00</lastmod>
+    <loc>https://clam-xy.github.io/authors/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://clam-xy.github.io/categories/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://clam-xy.github.io/tags/css/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://clam-xy.github.io/categories/desciption-page/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://clam-xy.github.io/tags/html/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://clam-xy.github.io/authors/hugo-authors/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://clam-xy.github.io/tags/markdown/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://clam-xy.github.io/</loc>
-    <lastmod>2021-11-28T22:45:16+01:00</lastmod>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://clam-xy.github.io/posts/network/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://clam-xy.github.io/posts/</loc>
-    <lastmod>2021-11-28T22:45:16+01:00</lastmod>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://clam-xy.github.io/authors/</loc>
-    <lastmod>2021-03-31T13:11:22+08:00</lastmod>
+    <loc>https://clam-xy.github.io/tags/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://clam-xy.github.io/tags/themes/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://clam-xy.github.io/posts/diagram-support/</loc>
     <lastmod>2021-03-31T13:11:22+08:00</lastmod>
@@ -44,9 +68,6 @@
     <loc>https://clam-xy.github.io/docs/example-doc/nested-chapter/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://clam-xy.github.io/categories/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://clam-xy.github.io/posts/featured-image/</loc>
     <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -56,34 +77,16 @@
     <loc>https://clam-xy.github.io/series/</loc>
     <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://clam-xy.github.io/tags/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://clam-xy.github.io/categories/themes/</loc>
     <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://clam-xy.github.io/series/themes-guide/</loc>
     <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://clam-xy.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://clam-xy.github.io/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://clam-xy.github.io/authors/hugo-authors/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://clam-xy.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://clam-xy.github.io/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://clam-xy.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://clam-xy.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://clam-xy.github.io/posts/placeholder-text/</loc>

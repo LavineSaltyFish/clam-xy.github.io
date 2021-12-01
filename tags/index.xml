@@ -8,20 +8,11 @@
     <language>en</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://clam-xy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>image</title>
-      <link>https://clam-xy.github.io/tags/image/</link>
-      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://clam-xy.github.io/tags/image/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://clam-xy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>css</title>
       <link>https://clam-xy.github.io/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://clam-xy.github.io/tags/css/</guid>
       <description></description>
@@ -30,7 +21,7 @@
     <item>
       <title>html</title>
       <link>https://clam-xy.github.io/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://clam-xy.github.io/tags/html/</guid>
       <description></description>
@@ -39,7 +30,7 @@
     <item>
       <title>markdown</title>
       <link>https://clam-xy.github.io/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://clam-xy.github.io/tags/markdown/</guid>
       <description></description>
@@ -48,9 +39,18 @@
     <item>
       <title>themes</title>
       <link>https://clam-xy.github.io/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://clam-xy.github.io/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image</title>
+      <link>https://clam-xy.github.io/tags/image/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://clam-xy.github.io/tags/image/</guid>
       <description></description>
     </item>
     
