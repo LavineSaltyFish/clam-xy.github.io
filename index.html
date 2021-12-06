@@ -120,7 +120,7 @@
         class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
             <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">About</a>
-            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Studies</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Pages</a>
         </div>
 
         <div class="flex">
@@ -284,15 +284,40 @@
 </div>
 <div class="content">
   <h2 id="abstract">Abstract</h2>
-<p>The purpose of this final project is: finding the relationship among philosophers and learning about philosophers' thoughts. This final project contains two parts: drawing networks and their structure analysis, NLTK processing and analysis of books. attribute analysis, degree analysis, nltk analysis; The network has 10018 nodes and links. One node represents one philosopher and if two philosophers have strong relationship, these two nodes will build one link. In the degree analysis, the . In the attribute analysis, different attributes are . In Nltk analysis, some wordclouds are drawn.</p>
-<h2 id="first-analysis-on-the-all-network-">First analysis on the all network :</h2>
+<p>This final project contains: datasets and networks with philosophers and their attributes, like: eras and regions,   analysis of attributes of philosophers, analysis of connection among some attributes and analysis of philosophers' thoughts.</p>
 <ul>
-<li>For the global network we extract each link from each page and see if that link is a current link to another philosopher&rsquo;s page. In theory, if a link to another philosopher is present on the page, it means that these two philosophers are related in some way, whether it is for the themes they address, their geographical location or if they were two important philosophers of the same era.</li>
+<li>
+<p>Which era and region borns most siginificant philosophers? If they went through something similar in their life experience? To find it, networks are created and degrees analysis is applied to find the boom era and so on. What&rsquo;s more, each philosopher&rsquo;s page is download and be used to find frequent words and draw <a href="https://boostlabs.com/blog/what-are-word-clouds-value-simple-visualizations/">wordclouds</a>.</p>
+</li>
+<li>
+<p>If one research field has closed connection with some sepecific theories? If philosophy changes a lot with time going on? To find answer, one weight network and one heatmap is drawn to find the relationship among some attributes: era, research field and research theory.</p>
+</li>
+<li>
+<p>What are the philosophers in different fields or theories thinking about? Do they think completely different? To obtain it, some representative articles are chosen and extact frequent words in them, as well, wordclouds are drawn for better visualization.</p>
+</li>
 </ul>
-<h3 id="global-visualization-">Global visualization :</h3>
+<p>Datasets can be download <a href="https://github.com/clam-xy/dataset">here</a> and explainer notebook is shown <a href="https://nbviewer.org/gist/clam-xy/9abba4887240d9a3536a0765d508fd02">here</a>. Below is introduction to our datasets and brief of each analysis, you can also check our detail pages directly <a href="https://clam-xy.github.io/posts/">here</a>.</p>
+<h2 id="part-1-building-dataset">Part 1: Building dataset</h2>
+<p>To do anaylsis, we need to have one great dataset first<span class="nowrap"><span class="emojify">😉</span>. The dataset is from wikipedia: <a href="https://en.wikipedia.org/wiki/Lists_of_philosophers">Lists of philosophers</a>. There are two datasets for two analysis, because the philosophers in different sublists are different, sometimes some attributes or names are lost.</p>
+<ul>
+<li>For analysis of attributes, the name of philosophers is extracted from &ldquo;Lists of philosophers by name&rdquo;, and then extracting their attributes like: era, field by other lists. The dataset shows below:</li>
+</ul>
+<p><img src="/dataset_1.png" alt="Example image alt <>"></p>
+<ul>
+<li>For analysis of connections among attributes. The name of philosophers is extracted from &ldquo;Lists of philosophers by era&rdquo; which has much more names with around 4000. Then compare the names in list of theory and field, keep the philosophers with eras, theories and fields, whcih is one strict condition, we only have 93 names left. At the beginning, I just plan to analyse 18th and 19th, because some 20th philosophers still dedicate themselves to philosophy, theories or fields may change but I have to extend to 20th because of lack of data in wikipedia(which is one trouble I state at conclusion to our project). The dataset shows below, eventually<span class="nowrap"><span class="emojify">😩</span>:</li>
+</ul>
+<p><img src="/dataset_2.png" alt="Example image alt <>"></p>
+<ul>
+<li>These two datasets including Name of philosophers, their attributes including: era, field, theory, etc and different classes belong to one attribute. In the attributes analysis, region, core era and era are chosen, because they have more datas. In the connections of attributes analysis, eras, fields and theories are chosen to build weight network, because unmatched data in wikipedia, it&rsquo;s hard to add more attributes.</li>
+</ul>
+<h2 id="part-2-analysis-of-attributes-of-philosophers">Part 2: Analysis of attributes of philosophers:</h2>
+<p>In this part, the description pages also download using names in dataset. Then one huge <a href="https://www.sciencedirect.com/topics/computer-science/directed-network">directed network</a> is created based on the dataset and description pages although we use the dataset with less names. The nodes are the names of philosophers, if one philosopher A appear on other philosophers' descirption page, which means A has influence or realationship on the other philosophers in some way, then each of the other philosophers will have one out-link to A and A will have one in-link. Below is the huge network with 1395 nodes and 10023 links, we tried our best to make it looks better<span class="nowrap"><span class="emojify">😑</span>:</p>
 <p><img src="/all_graph.png" alt="Example image alt <>"></p>
-<p>This graph is very dense ! There a lot of conections between all the philosophers of all the times. The sizes of each node also shows that there is not one important philosopher but a lot of major ones with a lot of edges.</p>
-<h3 id="degrees-exponent">Degree&rsquo;s exponent</h3>
+<p>Then three attributes are analysed separately: by using in/out degree distribution find the most important class of one attribute and the important philosophers of each class. Then extracting some frequent words in various class and draw the wordclouds corresponding to classes in one attribute. You can check the detail in <a href="https://clam-xy.github.io/posts/core_areas/">core areas</a>, <a href="https://clam-xy.github.io/posts/regions/">regions</a> and <a href="https://clam-xy.github.io/posts/eras/">eras</a>. All of them are shown at <a href="https://clam-xy.github.io/posts/">pages</a>.</p>
+<h2 id="part-3-analysis-of-connections-among-attributes">Part 3: Analysis of connections among attributes:</h2>
+<p>In this part, one <a href="http://networksciencebook.com/chapter/2#weighted-networks">weight network</a> is built by using the second dataset with era, theory and field. The nodes are all the classes of these three attributes. If one philosopher born in <code>twenty</code> era prefers <code>environmental</code> theory and belong to <code>science</code> field. Then these three nodes will be connected with each other which creates three links. Weight is the number of specific links. It shows below:</p>
+<p><img src="/weightnetwork.png" alt="Example image alt <>"></p>
+<p>Degree distribution graph and weight heatmap are drawn to find the connections among these three attributes, you can check details in this <a href="https://clam-xy.github.io/posts/network/">page</a>.</p>
 
 </div>
 
@@ -366,11 +391,11 @@
   
   <div class="w-full ">
     <div class="mb-4">
-  <a href="https://clam-xy.github.io/posts/core_areas/" class="font-bold text-xl hover:text-eureka">Core areas</a>
+  <a href="https://clam-xy.github.io/posts/connection-among-attributes/" class="font-bold text-xl hover:text-eureka">Connections among attributes</a>
 </div>
 <div class="content">
   
-    This is the webpage for the study of different philosophical areas
+    This is the webpage of our final project
   
 </div>
 
@@ -407,11 +432,11 @@
   
   <div class="w-full ">
     <div class="mb-4">
-  <a href="https://clam-xy.github.io/posts/eras/" class="font-bold text-xl hover:text-eureka">Eras</a>
+  <a href="https://clam-xy.github.io/posts/core_areas/" class="font-bold text-xl hover:text-eureka">Core areas</a>
 </div>
 <div class="content">
   
-    This is the webpage for the studies of different era.
+    This is the webpage for the study of different philosophical areas
   
 </div>
 
@@ -422,7 +447,7 @@
     </div>
     <div class="mr-6 my-2">
         <i class="fas fa-clock mr-1"></i>
-        <span>6 min read</span>
+        <span>5 min read</span>
     </div>
     
     

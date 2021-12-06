@@ -10,6 +10,15 @@
 </copyright>
     <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://clam-xy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Connections among attributes</title>
+      <link>https://clam-xy.github.io/posts/connection-among-attributes/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://clam-xy.github.io/posts/connection-among-attributes/</guid>
+      <description>&lt;p&gt;This page shows the analysis of connections among fields, theories and eras. Philosophy has many fields and has born many theories, if one field connects strongly with one or some specific theories? In other words, if one philosopher belong to one field prefers to research one or specific theories? In addition, did philosophy change a lot with time going on? If some theories or fields just created or being popular in recent years? One &lt;a href=&#34;http://networksciencebook.com/chapter/2#weighted-networks&#34;&gt;weight network&lt;/a&gt; is built to analyse the connections among these three attributes. The following is the result and how I found it&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;😎&lt;/span&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Core areas</title>
       <link>https://clam-xy.github.io/posts/core_areas/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
@@ -62,15 +71,6 @@
       <guid>https://clam-xy.github.io/posts/regions/</guid>
       <description>&lt;p&gt;In this part we look at our network from a spatial perspective. We have 19 different regions : &amp;lsquo;Korean&amp;rsquo;, &amp;lsquo;Catholicandtheologians&amp;rsquo;, &amp;lsquo;Finnish&amp;rsquo;, &amp;lsquo;Slovene&amp;rsquo;, &amp;lsquo;Italian&amp;rsquo;, &amp;lsquo;French&amp;rsquo;, &amp;lsquo;Chinese&amp;rsquo;, &amp;lsquo;ancientGreek&amp;rsquo;, &amp;lsquo;Muslim&amp;rsquo;, &amp;lsquo;Russian&amp;rsquo;, &amp;lsquo;Japanese&amp;rsquo;, &amp;lsquo;Canadian&amp;rsquo;, &amp;lsquo;Romanian&amp;rsquo;, &amp;lsquo;Indian&amp;rsquo;, &amp;lsquo;German-language&amp;rsquo;, &amp;lsquo;Iranian&amp;rsquo;, &amp;lsquo;American&amp;rsquo;, &amp;lsquo;peoplefromtheBasqueCountry&amp;rsquo;, &amp;lsquo;British&amp;rsquo;.&lt;/p&gt;
 &lt;p&gt;We will try to characterize as much as possible each of these regions and see if we can highlight some patterns.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Relationship between attributes</title>
-      <link>https://clam-xy.github.io/posts/network/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://clam-xy.github.io/posts/network/</guid>
-      <description>&lt;p&gt;This page shows the analysis of relationship among fields, theories and eras. Philosophy has many fields and has born many theories, if one field connects strongly with one or some specific theories? In other words, if one philosopher belong to one field prefers to research one or specific theories? In addition, did philosophy change a lot with time going on? If some theories or fields just created or being popular in recent years? One &lt;a href=&#34;http://networksciencebook.com/chapter/2#weighted-networks&#34;&gt;weight network&lt;/a&gt; is built to analyse the relationship among these three attributes. The following is the result and how I found it&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;😎&lt;/span&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
