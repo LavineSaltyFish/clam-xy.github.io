@@ -1,21 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Network of Philosophers</title>
+    <title>Studies on Network of Philosophers</title>
     <link>https://clam-xy.github.io/posts/</link>
-    <description>Recent content in Posts on Network of Philosophers</description>
+    <description>Recent content in Studies on Network of Philosophers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
 </copyright>
     <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://clam-xy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Network of Philosophers</title>
+      <title>Core areas</title>
+      <link>https://clam-xy.github.io/posts/core_areas/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://clam-xy.github.io/posts/core_areas/</guid>
+      <description>&lt;p&gt;In this section we look at several important areas of philosophy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Epistemologists: the critical study of science and scientific knowledge and the study of knowledge in general.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Metaphysicians: the fundamental questions of first principles of being, nothingness, identity and change&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Logicians: the science of reasoning and relationships between ideas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Politicaltheorists : the philosophical study of government&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Aestheticians : deals with questions of beauty and artistic taste&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Indexsociopoliticalthinkers : focuses to social issues&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Political : all fields related to politics (broader than the previous two)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ethicists : ethics and ethical codes&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Eras</title>
+      <link>https://clam-xy.github.io/posts/eras/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://clam-xy.github.io/posts/eras/</guid>
+      <description>&lt;p&gt;In this part we look at our network from a temporal perspective. We have 9 different timelines: ancient Greece (&amp;lsquo;ancientGreek&amp;rsquo;), pre-christ (&amp;lsquo;centuriesBC&amp;rsquo;), first to tenth centuries (&amp;lsquo;1stthrough10thcenturies&amp;rsquo;), eleventh to fourteenth centuries (&amp;lsquo;11ththrough14thcenturies&amp;rsquo;), fifteenth and sixteenth centuries (&amp;lsquo;15thand16thcenturies&amp;rsquo;), seventeenth century (&amp;lsquo;17thcentury&amp;rsquo;), eighteenth century (&amp;lsquo;18thcentury&amp;rsquo;), nineteenth century (&amp;lsquo;19thcentury&amp;rsquo;), and twentieth century (&amp;lsquo;20thcentury&amp;rsquo;).&lt;/p&gt;
+&lt;p&gt;We will try to characterize as much as possible each of these periods and see if we can highlight some patterns.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Regions</title>
+      <link>https://clam-xy.github.io/posts/regions/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://clam-xy.github.io/posts/regions/</guid>
+      <description>&lt;p&gt;In this part we look at our network from a spatial perspective. We have 19 different regions : &amp;lsquo;Korean&amp;rsquo;, &amp;lsquo;Catholicandtheologians&amp;rsquo;, &amp;lsquo;Finnish&amp;rsquo;, &amp;lsquo;Slovene&amp;rsquo;, &amp;lsquo;Italian&amp;rsquo;, &amp;lsquo;French&amp;rsquo;, &amp;lsquo;Chinese&amp;rsquo;, &amp;lsquo;ancientGreek&amp;rsquo;, &amp;lsquo;Muslim&amp;rsquo;, &amp;lsquo;Russian&amp;rsquo;, &amp;lsquo;Japanese&amp;rsquo;, &amp;lsquo;Canadian&amp;rsquo;, &amp;lsquo;Romanian&amp;rsquo;, &amp;lsquo;Indian&amp;rsquo;, &amp;lsquo;German-language&amp;rsquo;, &amp;lsquo;Iranian&amp;rsquo;, &amp;lsquo;American&amp;rsquo;, &amp;lsquo;peoplefromtheBasqueCountry&amp;rsquo;, &amp;lsquo;British&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;We will try to characterize as much as possible each of these regions and see if we can highlight some patterns.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Relationship between attributes</title>
       <link>https://clam-xy.github.io/posts/network/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://clam-xy.github.io/posts/network/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This page shows the analysis of relationship among fields, theories and eras. Philosophy has many fields and has born many theories, if one field connects strongly with one or some specific theories? In other words, if one philosopher belong to one field prefers to research one or specific theories? In addition, did philosophy change a lot with time going on? If some theories or fields just created or being popular in recent years? One &lt;a href=&#34;http://networksciencebook.com/chapter/2#weighted-networks&#34;&gt;weight network&lt;/a&gt; is built to analyse the relationship among these three attributes. The following is the result and how I found it&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;😎&lt;/span&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>

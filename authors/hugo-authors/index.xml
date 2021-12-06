@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Authors on Network of Philosophers</title>
+    <title>Xinyu Liu on Network of Philosophers</title>
     <link>https://clam-xy.github.io/authors/hugo-authors/</link>
-    <description>Recent content in Hugo Authors on Network of Philosophers</description>
+    <description>Recent content in Xinyu Liu on Network of Philosophers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
 </copyright>
     <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://clam-xy.github.io/authors/hugo-authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Network of Philosophers</title>
+      <title>Relationship between attributes</title>
       <link>https://clam-xy.github.io/posts/network/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://clam-xy.github.io/posts/network/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This page shows the analysis of relationship among fields, theories and eras. Philosophy has many fields and has born many theories, if one field connects strongly with one or some specific theories? In other words, if one philosopher belong to one field prefers to research one or specific theories? In addition, did philosophy change a lot with time going on? If some theories or fields just created or being popular in recent years? One &lt;a href=&#34;http://networksciencebook.com/chapter/2#weighted-networks&#34;&gt;weight network&lt;/a&gt; is built to analyse the relationship among these three attributes. The following is the result and how I found it&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;😎&lt;/span&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
